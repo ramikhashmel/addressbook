@@ -1,6 +1,7 @@
-sudo: required
 language: java
+sudo: false
 install:
   - mvn install
+mvn test -B
 jdk:
   - oraclejdk8
