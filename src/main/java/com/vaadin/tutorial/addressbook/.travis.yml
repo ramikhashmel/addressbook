@@ -1,5 +1,6 @@
-language: java
+language:  java
 install:
-  - mvn install
+- mvn install
 jdk:
   - oraclejdk8
+
